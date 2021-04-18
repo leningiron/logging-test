@@ -26,6 +26,13 @@ namespace Lgm.Demo.WebApi.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogTrace("registrando LogTrace"); 
+            _logger.LogDebug("registrando LogDebug");
+            _logger.LogInformation("registrando LogInformation");
+            _logger.LogWarning("registrando LogWarning");
+            _logger.LogError("registrando LogError");
+            _logger.LogCritical("registrando LogCritical");
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
