@@ -4,6 +4,7 @@ using System.IO;
 
 namespace Lgm.Demo.Logger
 {
+    [ProviderAlias("TheFileLogger")]
     public class FileLoggerProvider : ILoggerProvider
     { 
         public readonly FileLoggerOptions Options;
