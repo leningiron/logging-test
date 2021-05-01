@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lgm.Demo.WebApi", "Lgm.Demo.WebApi\Lgm.Demo.WebApi.csproj", "{B38ED2CC-B753-4219-B4C9-9495ADF7D98C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lgm.Demo.Logger", "Lgm.Demo.Logger\Lgm.Demo.Logger.csproj", "{960C6AD6-7A0A-4168-B8B9-50467830D445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lgm.Demo.Logger", "Lgm.Demo.Logger\Lgm.Demo.Logger.csproj", "{960C6AD6-7A0A-4168-B8B9-50467830D445}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
