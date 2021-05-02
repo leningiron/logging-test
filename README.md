@@ -1,1 +1,1 @@
-# Implementation of ILogger with files and slack 
+Implementation of ILogger with files and slack 
